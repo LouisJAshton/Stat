@@ -1,7 +1,7 @@
 # Stat
 
 ## Overview
-```Stat<T>``` is a class that wraps a value of type ```T```. It can be used to allow easy implementation of on-value-changed callbacks.
+```Stat<T>``` is a class that wraps a value of type ```T```. It can be used to allow easy implementation of on-value-changed callbacks in Unity.
 
 ## Listening To A Stat
 
