@@ -8,30 +8,30 @@
 ### Listen
 
 - ```public void Listen(StatChangedCallback callback)```
- - Subscribes the passed callback to a delegate called every time the value is updated
- - Unsubscribes the event first to ensure the same delegate is not duplicated
- - Passes both the ```T oldValue``` and the ```T newValue``` as parameters
+  - Subscribes the passed callback to a delegate called every time the value is updated
+  - Unsubscribes the event first to ensure the same delegate is not duplicated
+  - Passes both the ```T oldValue``` and the ```T newValue``` as parameters
 
 - ```public void Listen(StatChangedCallbackNoParams callback)```
- - Subscribes the passed callback to a delegate called every time the value is updated
- - Unsubscribes the event first to ensure the same delegate is not duplicated
- - Passes no parameters
+  - Subscribes the passed callback to a delegate called every time the value is updated
+  - Unsubscribes the event first to ensure the same delegate is not duplicated
+  - Passes no parameters
 
 ### StopListen
 
 - ```public void StopListen(StatChangedCallback callback)```
- - Unsubscribes the given callback
+  - Unsubscribes the given callback
 
 - ```public void StopListen(StatChangedCallbackNoParams callback)```
- - Unsubscribes the given callback
+  - Unsubscribes the given callback
 
 ## Value use
-- ```Reset()```
- - Resets the stored value to the value it was first initialised with
+- ```public void Reset()```
+  - Resets the stored value to the value it was first initialised with
 
-- ```Set(T value)```
- - Sets the stored value
- - Invokes the delegates ```_onStatChanged``` and ```_onStatChangedNoParams```
+- ```public void Set(T value)```
+  - Sets the stored value
+  - Invokes the delegates ```_onStatChanged``` and ```_onStatChangedNoParams```
 
 - Can be implicitly cast to type ```T``` to use in place of explicitly calling ```Value```
 
