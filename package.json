@@ -1,0 +1,12 @@
+{
+  "name": "com.github.stat",
+  "version": "0.0.1",
+  "displayName": "Stat",
+  "description": "Provides a wrapper class for a value that gives easy access to OnChanged events",
+  "unity": "6000.0",
+  "author": {
+    "name": "Louis Ashton",
+    "email": "louisjamesashton@gmail.com",
+    "url": "https://github.com/LouisJAshton"
+  }
+}
