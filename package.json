@@ -1,5 +1,5 @@
 {
-  "name": "com.github.stat",
+  "name": "com.louisjamesashton.stat",
   "version": "0.0.1",
   "displayName": "Stat",
   "description": "Provides a wrapper class for a value that gives easy access to OnChanged events",
