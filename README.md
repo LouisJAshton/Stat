@@ -3,7 +3,7 @@
 ## Overview
 ```Stat<T>``` is a class that wraps a value of type ```T```. It can be used to allow easy implementation of on-value-changed callbacks.
 
-## Listening to a Stat
+## Listening To A Stat
 
 ### Listen
 
@@ -25,7 +25,7 @@
 - ```public void StopListen(StatChangedCallbackNoParams callback)```
   - Unsubscribes the given callback
 
-## Value use
+## Use As A Value
 - ```public void Reset()```
   - Resets the stored value to the value it was first initialised with
 
